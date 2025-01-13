@@ -1,4 +1,5 @@
 #include "ExFATModule.hpp"
+#include "ExFATDevoptab.hpp"
 #include <exfat.h>
 
 ExFATModule& ExFATModule::getInstance() {
