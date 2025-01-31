@@ -1,3 +1,6 @@
+#ifndef EXFAT_MODULE_HPP
+#define EXFAT_MODULE_HPP
+
 #pragma once
 #include <wums.h>
 #include <memory>
@@ -16,3 +19,5 @@ private:
     bool mounted = false;
     std::string mountPoint = "exfat";
 };
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef EXFAT_DEVOPTAB_HPP
+#define EXFAT_DEVOPTAB_HPP
+
 #pragma once
 #include <sys/iosupport.h>
 #include <string>
@@ -16,3 +19,5 @@ private:
     
     static devoptab_t devoptab;
 };
+
+#endif
