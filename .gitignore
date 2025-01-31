@@ -1,2 +1,2 @@
-/.devcontainer/
-/.codesandbox/
+.devcontainer/** */
+.codesandbox/** */
