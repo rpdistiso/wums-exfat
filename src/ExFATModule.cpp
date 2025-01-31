@@ -1,6 +1,7 @@
 #include <include/ExFATModule.hpp>
 #include <include/ExFATDevoptab.hpp>
 #include <exfat.h>
+#include <iostream>
 
 ExFATModule& ExFATModule::getInstance() {
     static ExFATModule instance;
